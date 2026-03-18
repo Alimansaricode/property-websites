@@ -95,7 +95,7 @@ function Nav() {
 </div>
 <div className='flex justify-end items-end max-lg:flex-1'>
   <div className="navbar-end">
-    <a className="btn bg-green-500 ">Login</a>
+    <a className="btn bg-green-500 "><Link to="/login">Login</Link></a>
   </div></div></div>
 </div>
 

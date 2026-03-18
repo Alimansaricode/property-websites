@@ -5,6 +5,7 @@ import Home from './pages/Home'
 import Buy from './pages/Buy'
 import Rent from './pages/Rent'
 import About from './pages/About'
+import Login from './pages/Login'
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <Route path='/buy' element={<Buy/>}/>
       <Route path='/rent' element={<Rent/>}/>
       <Route path='/about' element={<About/>}/>
+        <Route path='/Login' element={<Login/>}/>
     
     </Routes>
     </BrowserRouter>

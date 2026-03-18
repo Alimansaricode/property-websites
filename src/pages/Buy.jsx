@@ -1,5 +1,6 @@
 import React from 'react'
 import buys from '../Buys'
+import { Link } from 'react-router-dom'
 function Buy() {
   return (
     <>
@@ -17,7 +18,7 @@ function Buy() {
 
 <p className='text-xl font-bold px-4 py-1'> {item.price}</p>
 <p className='text-sm font-light px-4'>{item.location} </p>
-<button className='bg-[#338584] hover:bg-[#006766] text-white px-2 py-2 mx-4 my-6 rounded-md'>View Details</button>
+<button className='bg-[#338584] hover:bg-[#006766] text-white px-2 py-2 mx-4 my-6 rounded-md'><Link to="/about">View Details</Link></button>
 </div>
         </div>
         ))}
