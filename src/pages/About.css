@@ -14,6 +14,14 @@
     gap: 20px;
 
 }
+.contacta h1{
+    font-size: 30px;
+    font-weight: 300px;
+    color: black;
+
+    display: flex;
+    justify-content: center;
+}
 
 .contacta form input {
     width: 30%;
