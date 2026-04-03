@@ -32,7 +32,7 @@ function Nav() {
         <li><a><Link to="/about">About</Link></a></li>
       </ul>
     </div>
-    <a className=" btn-ghost text-[25px] font-extrabold font-sans hover:text-white max-sm:text-[19px]">Dream Home</a>
+    <a className="  text-[25px] font-medium font-sans  max-sm:text-[19px]">Dream Home</a>
   </div >
   <div className="navbar-center hidden md:flex pr-10">
     <ul className="menu menu-horizontal px-2 text-xl ">

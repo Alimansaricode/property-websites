@@ -32,8 +32,8 @@ function Footer() {
         <input
           type="text"
           placeholder="username@site.com"
-          className="input input-bordered join-item bg-white mx-4 hover:border-2 px-3 border-black" />
-        <button className="btn btn-primary join-item  bg-[#338584] hover:bg-[#006766] text-black rounded-2xl px-3 mx-10 ml-6">Subscribe</button>
+          className="input input-bordered join-item bg-white mx-15 border-2 px-4 border-black mr-1" />
+        <button className="btn btn-primary join-item  bg-[#338584] hover:bg-[#006766] text-black rounded-3xl px-3 mx-6 mx-18">Subscribe</button>
       </div>
     </fieldset>
   </form>
