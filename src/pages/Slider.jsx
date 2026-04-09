@@ -8,10 +8,10 @@ function Slider() {
 
   useEffect(() => {
     const timers = [
-      setTimeout(() => setStep(1), 500),
-      setTimeout(() => setStep(2), 1200),
-      setTimeout(() => setStep(3), 1800),
-      setTimeout(() => setStep(4), 2400),
+      setTimeout(() => setStep(1), 600),
+      setTimeout(() => setStep(2), 12300),
+      setTimeout(() => setStep(3), 1900),
+      setTimeout(() => setStep(4), 2500),
     ];
 
     return () => timers.forEach(clearTimeout);
