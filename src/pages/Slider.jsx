@@ -9,7 +9,7 @@ function Slider() {
   useEffect(() => {
     const timers = [
       setTimeout(() => setStep(1), 600),
-      setTimeout(() => setStep(2), 12300),
+      setTimeout(() => setStep(2), 1200),
       setTimeout(() => setStep(3), 1900),
       setTimeout(() => setStep(4), 2500),
     ];

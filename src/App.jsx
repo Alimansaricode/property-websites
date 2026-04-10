@@ -1,5 +1,5 @@
 import React from 'react'
-import Nav from './pages/Nav.jsx'
+import Nav from './pages/nav'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Home from './pages/Home'
 import Buy from './pages/Buy'
