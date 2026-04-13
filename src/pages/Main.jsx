@@ -87,7 +87,7 @@ function Main() {
 
   return (
     <div className="w-full p-6">
-      <h1 className="text-3xl font-semibold mb-4">Dream Home - Dubai</h1>
+      <h1 className="text-3xl font-semibold mb-4">Dream Home -Noida</h1>
 
       {/* DRAG SCROLL CONTAINER */}
       <div
